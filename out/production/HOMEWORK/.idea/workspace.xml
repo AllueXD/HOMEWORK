@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7603fff9-15d4-45fd-99ed-f19aecf8da3d" name="Default Changelist" comment="" />
+    <list default="true" id="7603fff9-15d4-45fd-99ed-f19aecf8da3d" name="Default Changelist" comment="Updated 1st lab(4 number)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +26,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.factorial">
+    <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.factorial" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab1.main" />
       <module name="HOMEWORK" />
@@ -42,6 +55,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.factorial" />
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
@@ -57,7 +71,15 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated 1st lab(4 number)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated 1st lab(4 number)" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600340389274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600340389274" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600338231230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
