@@ -26,13 +26,57 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Tester">
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab2.Tester" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\COMPUTER\Documents\GitHub\HOMEWORK\lab3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Human">
+    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.books.BookTest" />
       <module name="HOMEWORK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab2.*" />
+          <option name="PATTERN" value="lab3.books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.Circle.CircleTest" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.Circle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.human.Human" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.human.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab2.shapes.Tester" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab2.Dogs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -41,24 +85,11 @@
       </method>
     </configuration>
     <configuration name="factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.factorial" />
+      <option name="MAIN_CLASS_NAME" value="lab1.factorial.factorial" />
       <module name="HOMEWORK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.main" />
-      <module name="HOMEWORK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab1.*" />
+          <option name="PATTERN" value="lab1.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,9 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Human" />
+        <item itemvalue="Application.BookTest" />
+        <item itemvalue="Application.CircleTest" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.factorial" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -90,22 +123,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated 1st lab(4 number)" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600341279076">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600348197246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600341279076" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600341279076">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600348197246" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600346755245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600341279076" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600341279076">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600346755245" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600346755245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600341279076" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600341279076">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600346755245" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600346755245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600341279076" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600346755245" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600346755245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600346755245" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600340389274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
