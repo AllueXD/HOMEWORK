@@ -1,27 +1,22 @@
 package lab8_2;
 
-import java.applet.Applet;
+import javax.imageio.ImageIO;
+import javax.swing.*;
 import java.awt.*;
-import java.net.URL;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
-public class Main extends Applet {
-    Image img;
-
-    @Override
-    public void init() {
-        super.init();
-        img=getImage(getCodeBase(),"file:image.jpg");
-        System.out.println(getCodeBase());
-    }
-
-    @Override
-    public void paint(Graphics g) {
-        super.paint(g);
-        g.drawImage(img,0,0,this);
-    }
-
-    public static void main(String[] args) {
-        Main main = new Main();
-        main.init();
+class Main{
+    public static void main(String[] args) throws IOException {
+        String imagePath = "C:/Users/Computer/Documents/GitHub/HOMEWORK/lab8_2/image.jpg";
+        BufferedImage image = ImageIO.read(new File(imagePath));
+        JLabel picLabel = new JLabel(new ImageIcon(image));
+        JPanel jPanel = new JPanel();
+        jPanel.add(picLabel);
+        JFrame f = new JFrame();
+        f.setSize(new Dimension(image.getWidth(), image.getHeight()));
+        f.add(jPanel);
+        f.setVisible(true);
     }
 }
