@@ -1,6 +1,9 @@
 package lab17.game;
 
 //39 - размер шапки окна фрейма
+//Добавить ботов + столкновения
+//Добавить гемы и выход из игры
+//Добавить таймер
 
 
 import javax.swing.*;
@@ -16,6 +19,7 @@ public class Game extends JComponent implements KeyListener, ActionListener {
     Image wallBrickStone = new ImageIcon("lab17/game/src/Brick.png").getImage();
     Image stairsImage = new ImageIcon("lab17/game/src/Stair.png").getImage();
     Image antImage = new ImageIcon("lab17/game/src/Ant.png").getImage();
+  //  Image gemImage = new ImageIcon("lab17/game/src/Diamond.png").getImage();
 
     Image playGround[][] = new Image[25][11];
     /////////////////////////////////////////////////////
@@ -26,6 +30,7 @@ public class Game extends JComponent implements KeyListener, ActionListener {
 
     //Personage movement
     private int cX = 100, cY = 0, cI = 2, cJ = 0, cW = 40, cH = 40; //x, y - Положение на экране, i,j - Положение на массиве playGround
+    private int collectedGems = 0;
     ////////////////////////////////////////////////////////
 
 
@@ -60,7 +65,6 @@ public class Game extends JComponent implements KeyListener, ActionListener {
             }
         }
         gr.drawImage(antImage, cX, cY, cW,cH, null);
-
         timer.start();
     }
 
