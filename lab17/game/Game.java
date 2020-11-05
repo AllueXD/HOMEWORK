@@ -37,8 +37,6 @@ public class Game extends JComponent implements KeyListener, ActionListener {
 
         }
 
-        
-
     }
 
     public void paint(Graphics g){
