@@ -5,7 +5,7 @@ public class Circle {
     private double D;
     private int diametr;
 
-    Circle(int rad){
+    public Circle(int rad){
         this.diametr = rad*2;
         this.radius = rad;
         this.D = 2*3.14*rad;

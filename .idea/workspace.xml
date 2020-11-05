@@ -10,6 +10,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,19 +26,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lab9" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\COMPUTER\Documents\GitHub\HOMEWORK\lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab8_3.Main" />
+  <component name="RunManager" selected="Application.Game">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab17.game.Game" />
       <module name="HOMEWORK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab8_3.*" />
+          <option name="PATTERN" value="lab17.game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,6 +66,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab11.Main" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab12.Main" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab8_2.Main" />
       <module name="HOMEWORK" />
@@ -71,39 +105,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab4.Person" />
-      <module name="HOMEWORK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab8.Program" />
-      <module name="HOMEWORK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Game" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +138,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated 1st lab(4 number)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604545623194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604545623194" />
+    <state x="574" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1604598057618">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="574" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1604598057618" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604587064903" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600348197246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -131,30 +155,34 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601069295672" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1604510031021">
+    <state width="1877" height="76" key="GridCell.Tab.0.bottom" timestamp="1604600948387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601572944635" />
+    <state width="1397" height="76" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604510031021" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1604510031020">
+    <state width="1877" height="76" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604600948387" />
+    <state width="1877" height="76" key="GridCell.Tab.0.center" timestamp="1604600948387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1601572944635" />
+    <state width="1397" height="76" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604510031020" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1604510031020">
+    <state width="1877" height="76" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604600948387" />
+    <state width="1877" height="76" key="GridCell.Tab.0.left" timestamp="1604600948387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1601572944635" />
+    <state width="1397" height="76" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604510031020" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1604510031020">
+    <state width="1877" height="76" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604600948387" />
+    <state width="1877" height="76" key="GridCell.Tab.0.right" timestamp="1604600948387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="221" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1601572944635" />
+    <state width="1397" height="76" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604510031020" />
+    <state width="1877" height="76" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604600948387" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604545398822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604545398822" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600340389274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
