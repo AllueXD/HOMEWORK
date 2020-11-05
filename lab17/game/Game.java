@@ -13,18 +13,28 @@ import java.awt.event.KeyListener;
 public class Game extends JComponent implements KeyListener, ActionListener {
     //Images
     Image wallBlackStone = new ImageIcon("lab17/game/src/Stone.jpg").getImage();
+    Image wallBrickStone = new ImageIcon("lab17/game/src/Brick.png").getImage();
+    Image stairsImage = new ImageIcon("lab17/game/src/Stair.png").getImage();
+    Image antImage = new ImageIcon("lab17/game/src/Ant.png").getImage();
+
     Image playGround[][] = new Image[25][11];
-    //Images//
+    /////////////////////////////////////////////////////
+
     //vars
     Timer timer = new Timer(60, this);
+    //////////////////////////////////////////////////////
 
-    //Movable
-    private int cX = 0, cY = 0, cI = 0, cJ = 0, cW = 50, cH = 50; //x, y - Положение на экране, i,j - Положение на массиве playGround
-
+    //Personage movement
+    private int cX = 100, cY = 0, cI = 2, cJ = 0, cW = 40, cH = 40; //x, y - Положение на экране, i,j - Положение на массиве playGround
+    ////////////////////////////////////////////////////////
 
 
     public void fillPlayGround(){
         for (int i = 0; i < 25; i++){
+          //Заполнение ход. полей
+          for (int j = 1; j <= 9; j+=2){
+            playGround[i][j] = wallBrickStone;
+          }
             //Заполняем границы и этажи
             for (int j = 0; j <=10; j+=2){
                 playGround[i][j] = wallBlackStone;
@@ -33,10 +43,13 @@ public class Game extends JComponent implements KeyListener, ActionListener {
                 playGround[0][i] = wallBlackStone;
                 playGround[24][i] = wallBlackStone;
             }
-
-
         }
 
+        playGround[2][0] = stairsImage;
+        playGround[16][2] = stairsImage;
+        playGround[9][4] = stairsImage;
+        playGround[10][6] = stairsImage;
+        playGround[21][8] = stairsImage;
     }
 
     public void paint(Graphics g){
@@ -46,9 +59,8 @@ public class Game extends JComponent implements KeyListener, ActionListener {
                 gr.drawImage(playGround[i][j], i * 50, j*50, 50, 50, null);
             }
         }
+        gr.drawImage(antImage, cX, cY, cW,cH, null);
 
-        //gr.drawImage(car, cX, cY, cW,cH,null);
-        gr.drawImage(wallBlackStone,0,0,50,50,null);
         timer.start();
     }
 
@@ -80,35 +92,46 @@ public class Game extends JComponent implements KeyListener, ActionListener {
 
     @Override
     public void keyPressed(KeyEvent e) {
-       /* if (e.getKeyCode()==KeyEvent.VK_RIGHT){
-            //playGround[5][5] = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/game/src/Grass2.jpg").getImage();
-            playGround[cI][cJ] = grass1;
-            playGround[cI][cJ+1] = grass1;
-            cX+=25;
-            cI++;
-        }
-        if (e.getKeyCode()==KeyEvent.VK_UP){
-            //playGround[5][5] = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/game/src/Grass2.jpg").getImage();
-            playGround[cI][cJ+1] = grass1;
-            playGround[cI+1][cJ+1] = grass1;
-            cY-=25;
-            cJ--;
+        if (e.getKeyCode()==KeyEvent.VK_RIGHT){
+          if ((cX + 100 != 1250) && (playGround[cI+1][cJ] != wallBlackStone)){
+            cX += 10;
+            System.out.println("Right->cX = " + cX);
+            if (cX % 50 == 0){
+              cI++;
+              System.out.println("Right->cI = " +cI);
+            }
+          }
         }
         if (e.getKeyCode()==KeyEvent.VK_LEFT){
-            //playGround[5][5] = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/game/src/Grass2.jpg").getImage();
-            playGround[cI+1][cJ] = grass1;
-            playGround[cI+1][cJ+1] = grass1;
-            cX-=25;
-            cI--;
+          if ((cX - 50 != 0) && (playGround[cI-1][cJ] != wallBlackStone)){
+            cX -=10;
+            System.out.println("Left->cX = " + cX);
+            if (cX % 50 == 0){
+              cI--;
+              System.out.println("Left->cI = " + cI);
+            }
+          }
         }
         if (e.getKeyCode()==KeyEvent.VK_DOWN){
-            //playGround[5][5] = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/game/src/Grass2.jpg").getImage();
-            playGround[cI][cJ] = grass1;
-            playGround[cI+1][cJ] = grass1;
-            cY+=25;
-            cJ++;
-        }*/
-
+            if ((playGround[cI][cJ] == stairsImage) || (playGround[cI][cJ-1] == stairsImage)){
+              cY+=10;
+              System.out.println("Down->cY = " + cY);
+              if (cY % 50 == 0){
+                cJ++;
+                System.out.println("Down->cJ = " + cJ);
+              }
+            }
+        }
+        if (e.getKeyCode()==KeyEvent.VK_UP){
+          if ((playGround[cI][cJ] == stairsImage) || (playGround[cI][cJ-1] == stairsImage)){
+            cY -= 10;
+            System.out.println("Up->cY = " + cY);
+            if (cY % 50 == 0){
+              cJ--;
+              System.out.println("Up->cJ = " + cJ);
+            }
+          }
+        }
     }
 
     @Override
