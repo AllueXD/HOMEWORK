@@ -19,6 +19,7 @@ public class Game extends JComponent implements KeyListener, ActionListener{
     public Snake snake;
     Timer timer = new Timer(150, this);
     public int sSize = 0, imageSize = 0;
+    public int score = 0;
 
     //////////////////{sets}/////////////////
     public void setSnake(){
@@ -84,11 +85,6 @@ public class Game extends JComponent implements KeyListener, ActionListener{
         snake.moveSnake(snake.LastMoveKey);
         timer.start();
     }
-
-    public void animation(){
-
-    }
-
     //////////////////main/////////////////////////
     public static void main(String[] args) {
         Game game = new Game(10, 50);

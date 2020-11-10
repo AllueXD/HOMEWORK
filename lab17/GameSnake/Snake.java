@@ -3,6 +3,7 @@ package lab17.GameSnake;
 import lab17.GameSnake.Cell;
 import lab17.GameSnake.Game;
 
+import javax.swing.*;
 import java.awt.event.KeyEvent;
 import java.util.*;
 
@@ -45,6 +46,8 @@ public class Snake {
         snake.elementAt(0).setStatus(1);
         snake.elementAt(snake.size()-1).setStatus(1);
     }
+
+    public void animateSnake(){}
     public void moveSnake(int direction){
         if (getOppositeMoveKey() == direction){
             return;
@@ -95,9 +98,11 @@ public class Snake {
             snake.removeElementAt(0);
         } else{
             frame.generateSingleFood();
+            frame.score += 25;
         }
         if (newCell.getStatus() == 1){
-            System.exit(10);
+            JOptionPane.showMessageDialog(frame, "Игра окончена.\nВаш счёт: " + frame.score);
+            System.exit(0);
         }
         newCell.setStatus(1);
         if (newCell == head){
