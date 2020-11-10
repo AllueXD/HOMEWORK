@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,13 +40,52 @@
       <recent name="C:\Users\COMPUTER\Documents\GitHub\HOMEWORK\lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Game">
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab17.game.Game" />
+  <component name="RunManager" selected="Application.Game (1)">
+    <configuration name="Display" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab17.Display" />
       <module name="HOMEWORK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab17.game.*" />
+          <option name="PATTERN" value="lab17.GameSnake.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab17.GameSnake.Game" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab17.GameSnake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab17.GameSnake.src.Game" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab17.GameSnake.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab11.Main" />
+      <module name="HOMEWORK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,37 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab11.Main" />
+      <option name="MAIN_CLASS_NAME" value="lab8_3.Main" />
       <module name="HOMEWORK" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab12.Main" />
-      <module name="HOMEWORK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab8_2.Main" />
-      <module name="HOMEWORK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab8_2.*" />
+          <option name="PATTERN" value="lab8_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,19 +120,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Game" />
+      <item itemvalue="Application.Display" />
+      <item itemvalue="Application.Game (1)" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Game" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Game (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Game (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -142,43 +157,44 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604545623194" />
-    <state x="574" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1604598057618">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1604726716140">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1604598057618" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604587064903" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604726716140" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600348197246">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600348197246" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1601069295672">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="667" y="224" key="FileChooserDialogImpl" timestamp="1604681824551">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601069295672" />
-    <state width="1877" height="76" key="GridCell.Tab.0.bottom" timestamp="1604602680710">
+    <state x="667" y="224" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604681824551" />
+    <state width="937" height="152" key="GridCell.Tab.0.bottom" timestamp="1604847171258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="76" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
+    <state width="698" height="118" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604761527874" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="76" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604602680710" />
-    <state width="1877" height="76" key="GridCell.Tab.0.center" timestamp="1604602680709">
+    <state width="937" height="152" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604847171258" />
+    <state width="937" height="152" key="GridCell.Tab.0.center" timestamp="1604847171258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="76" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
+    <state width="698" height="118" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604761527874" />
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="76" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604602680709" />
-    <state width="1877" height="76" key="GridCell.Tab.0.left" timestamp="1604602680709">
+    <state width="937" height="152" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604847171258" />
+    <state width="937" height="152" key="GridCell.Tab.0.left" timestamp="1604847171258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="76" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
+    <state width="698" height="118" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604761527874" />
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="76" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604602680709" />
-    <state width="1877" height="76" key="GridCell.Tab.0.right" timestamp="1604602680709">
+    <state width="937" height="152" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604847171258" />
+    <state width="937" height="152" key="GridCell.Tab.0.right" timestamp="1604847171258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1397" height="76" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604598151938" />
+    <state width="698" height="118" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604761527874" />
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600349591765" />
-    <state width="1877" height="76" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604602680709" />
+    <state width="937" height="152" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604847171258" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604545398822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,9 +203,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600340389274" />
+    <state x="505" y="256" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604718538288">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="505" y="256" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1604718538288" />
+    <state x="342" y="140" key="new project wizard" timestamp="1604681796326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604681796326" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604846879553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604846879553" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600338231230">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600338231230" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
