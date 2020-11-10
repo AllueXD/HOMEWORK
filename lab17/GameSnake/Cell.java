@@ -7,8 +7,8 @@ public class Cell {
     ////////////////{images}\\\\\\\\\\\\\\\\\
     public Image mainImage;
     static Image cellTexture = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/GameSnake/src/Cell.png").getImage();
-    static Image foodTexture = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/GameSnake/src/Food.jpg").getImage();
-    public static Image snakeTexture = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/GameSnake/src/Snake.jpg").getImage();
+    static Image foodTexture = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/GameSnake/src/Food.png").getImage();
+    public static Image snakeTexture = new ImageIcon("C:/Users/COMPUTER/Documents/GitHub/HOMEWORK/lab17/GameSnake/src/Snake.png").getImage();
 
     ///////////////{vars}\\\\\\\\\\\\\\\\\\\\\\
     private int status; // 0 - Обычная ячейка, 1 - змейка, -1 - ячейка с едой

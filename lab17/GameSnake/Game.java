@@ -47,7 +47,7 @@ public class Game extends JComponent implements KeyListener, ActionListener{
         Random random = new Random();
         int x = random.nextInt(sSize);
         int y = random.nextInt(sSize);
-        while (snake.snake.contains(playGround[x][y])){
+        while (snake.snake.contains(playGround[x][y]) || playGround[x][y].getStatus() == -1){
             x = random.nextInt(sSize);
             y = random.nextInt(sSize);
 
@@ -85,22 +85,21 @@ public class Game extends JComponent implements KeyListener, ActionListener{
         timer.start();
     }
 
+    public void animation(){
+
+    }
+
     //////////////////main/////////////////////////
     public static void main(String[] args) {
         Game game = new Game(10, 50);
-        game.startGame();
-
-        Game game2 = new Game(20, 25);
         game.startGame();
 
         JFrame frame = new JFrame("GAME");
         frame.setSize(1000,1000);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
-        //frame.add(new Game());
-        frame.add(game);
-     //   frame.add(game2);
-        frame.pack();
+
+        frame.setContentPane(game);
         frame.addKeyListener(game);
         frame.setVisible(true);
      }
