@@ -8,7 +8,6 @@ import java.util.Random;
 class Surface extends JPanel {
 
     public void doDrawing(Graphics g) {
-
         Graphics2D g2d = (Graphics2D) g;
 
         Random random = new Random();
