@@ -1,7 +1,5 @@
 package lab17.GameSeaBattle;
 
-import lab17.GameSeaBattle.source.Ship;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -16,7 +14,7 @@ public class GameInterface extends JPanel implements MouseListener, ActionListen
     private int shipTopX2 = -1, shipTopY2 = -1;
     private int shipTopX = -1, shipTopY = -1;
     public int count4lvl = 0, count3lvl = 0, count2lvl=0, count1lvl=0;
-    private Timer timer = new Timer(5, this);
+    private Timer timer = new Timer(2, this);
     public boolean shoot = false, setShips = false;
     public GameInterface bot, player;
     public int totalShipCells =  20;

@@ -14,24 +14,7 @@ public class Game{
     public int iter = 0;
 
     public void startGame(Game game){
-        JOptionPane.showMessageDialog(player, "Установите корабли");
-        while (player.count3lvl + player.count1lvl + player.count2lvl + player.count4lvl < 10){
-            System.out.println("1");
-        }
-        player.setShips = false;
-        player.clearPlayGroundOfRed();
-        JOptionPane.showMessageDialog(player, "Ваш ход первый.\nСтреляйте по клеткам врага.");
 
-        player.setBot(bot);player.setGame(game);
-        bot.setPlayer(player);bot.setGame(game);
-
-        // player.shoot = true;
-        game.iter = 0; // Количество выстрелов (не в сумме)\закрытых клеток на одной панеле
-        while ((player.totalShipCells > 0 && bot.totalShipCells > 0) && (game.iter < 100)){
-            player.shoot = true;
-        }
-        player.shoot = false;
-        JOptionPane.showMessageDialog(player, "123");
     }
 
     public static void main(String[] args) {
@@ -52,11 +35,7 @@ public class Game{
         JPanel sep = new JPanel();
         sep.setLayout(new BoxLayout(sep, BoxLayout.PAGE_AXIS));
 
-        JButton button = new JButton("Start");
-        button.setMinimumSize(new Dimension(40, 40));
-        button.setMaximumSize(new Dimension(40, 40));
-        button.setPreferredSize(new Dimension(40, 40));
-        sep.add(button);
+
 
 
         main.add(player);
@@ -72,8 +51,33 @@ public class Game{
 
         frame.pack();
         frame.setVisible(true);
+        JOptionPane.showMessageDialog(player, "В начале игры вам будет предложено разместить свои корабли.\n" +
+                " Всего 10 кораблей: 1 четырехпалубный, 2 трехпалубных,\n 3 двухпалубных и 4 однопалубных.\n" +
+                "Для размещения корабля разместите на игровом поле начало и конец корабля нажатием ЛКМ по клетке\n" +
+                "Для размещения однопалубного корабля кликните дважды по клетке.\n" +
+                "Уничтожайте корабли соперника(бота) нажатием по клетке игрового поля.\n" +
+                "Игра закончится после уничтожения всех кораблей одного из игроков.");
 
-        game.startGame(game);
+        JOptionPane.showMessageDialog(player, "Установите корабли");
+        while (player.getTotalShips() != 10){
+            System.out.println("1");
+            System.out.println(player.getTotalShips());
+            player.setShips = true;
+        }
+        player.setShips = false;
+        player.clearPlayGroundOfRed();
+        JOptionPane.showMessageDialog(player, "Ваш ход первый.\nСтреляйте по клеткам врага.");
+
+        player.setBot(bot);player.setGame(game);
+        bot.setPlayer(player);bot.setGame(game);
+
+        // player.shoot = true;
+        game.iter = 0; // Количество выстрелов (не в сумме)\закрытых клеток на одной панеле
+        while ((player.totalShipCells > 0 && bot.totalShipCells > 0) && (game.iter < 100)){
+            player.shoot = true;
+        }
+        player.shoot = false;
+        JOptionPane.showMessageDialog(player, "123");
 
     }
 }

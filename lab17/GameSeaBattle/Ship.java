@@ -1,4 +1,4 @@
-package lab17.GameSeaBattle.source;
+package lab17.GameSeaBattle;
 
 import lab17.GameSeaBattle.Cell;
 import lab17.GameSeaBattle.GameInterface;
